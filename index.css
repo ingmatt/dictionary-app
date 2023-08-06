@@ -1,0 +1,80 @@
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+hr {
+    color: red;
+    width: 200px;
+    border: red 2px solid;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox {
+    border-radius: 10px 0 0 10px;
+    border: 1px black solid;
+    background-color: #ECECEC;
+    padding: 0.7rem;
+    width: 15rem;
+}
+
+.search-btn {
+    padding: 0.61rem;
+    background: white;
+    border: solid black 1px;
+    border-radius: 0 10px 10px 0;
+}
+
+.dictionary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 3rem 4rem;  
+}
+
+.word-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phonetic {
+    color: red;
+    margin: 0 0 1rem;
+}
+
+.add-btn {
+    padding: 1rem 1.5rem;
+    background: red;
+    color: white;
+    border-radius: 50px;
+    border: white;
+    cursor: pointer;
+}
